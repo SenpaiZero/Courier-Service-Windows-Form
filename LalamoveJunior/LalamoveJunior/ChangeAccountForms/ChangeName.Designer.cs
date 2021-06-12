@@ -143,6 +143,7 @@ namespace LalamoveJunior.ChangeAccountForms
             this.nightButton1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
             this.nightButton1.TabIndex = 6;
             this.nightButton1.Text = "CONTINUE";
+            this.nightButton1.Click += new System.EventHandler(this.nightButton1_Click);
             // 
             // Pass
             // 
@@ -205,6 +206,7 @@ namespace LalamoveJunior.ChangeAccountForms
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChangeName";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
+            this.Load += new System.EventHandler(this.ChangeName_Load);
             this.nightForm1.ResumeLayout(false);
             this.nightForm1.PerformLayout();
             this.ResumeLayout(false);

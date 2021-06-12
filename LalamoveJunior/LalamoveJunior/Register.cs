@@ -73,7 +73,11 @@ namespace LalamoveJunior
 
         private void materialTextBox2_TextChanged(object sender, EventArgs e)
         {
-
+            if (System.Text.RegularExpressions.Regex.IsMatch(PhoneNumber.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Please enter only numbers.");
+                PhoneNumber.Text = PhoneNumber.Text.Remove(PhoneNumber.Text.Length - 1);
+            }
         }
 
         private void Password2_TextChanged(object sender, EventArgs e)

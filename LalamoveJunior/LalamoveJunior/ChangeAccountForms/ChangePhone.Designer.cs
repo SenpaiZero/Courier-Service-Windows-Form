@@ -143,6 +143,7 @@ namespace LalamoveJunior.ChangeAccountForms
             this.nightButton1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
             this.nightButton1.TabIndex = 6;
             this.nightButton1.Text = "CONTINUE";
+            this.nightButton1.Click += new System.EventHandler(this.nightButton1_Click);
             // 
             // Pass
             // 
@@ -160,6 +161,7 @@ namespace LalamoveJunior.ChangeAccountForms
             this.Pass.TabIndex = 5;
             this.Pass.Tag = "password";
             this.Pass.Text = "";
+            this.Pass.TextChanged += new System.EventHandler(this.Pass_TextChanged);
             // 
             // NewNumber
             // 
@@ -176,6 +178,7 @@ namespace LalamoveJunior.ChangeAccountForms
             this.NewNumber.TabIndex = 4;
             this.NewNumber.Tag = "password";
             this.NewNumber.Text = "";
+            this.NewNumber.TextChanged += new System.EventHandler(this.NewNumber_TextChanged);
             // 
             // CurrentNumber
             // 
@@ -192,6 +195,7 @@ namespace LalamoveJunior.ChangeAccountForms
             this.CurrentNumber.TabIndex = 3;
             this.CurrentNumber.Tag = "password";
             this.CurrentNumber.Text = "";
+            this.CurrentNumber.TextChanged += new System.EventHandler(this.CurrentNumber_TextChanged);
             // 
             // ChangePhone
             // 
@@ -205,6 +209,7 @@ namespace LalamoveJunior.ChangeAccountForms
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChangePhone";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
+            this.Load += new System.EventHandler(this.ChangePhone_Load);
             this.nightForm1.ResumeLayout(false);
             this.nightForm1.PerformLayout();
             this.ResumeLayout(false);

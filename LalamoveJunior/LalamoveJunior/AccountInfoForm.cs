@@ -91,5 +91,10 @@ namespace LalamoveJunior
             cPass.ShowDialog();
             this.Close();
         }
+
+        private void nightForm1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
