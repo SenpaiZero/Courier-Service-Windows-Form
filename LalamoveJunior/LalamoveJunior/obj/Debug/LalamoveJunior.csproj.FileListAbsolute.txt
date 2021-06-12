@@ -49,3 +49,33 @@ C:\Users\Santos\Desktop\HotelReservation\LalamoveJunior\obj\Debug\LalamoveJunior
 C:\Users\Santos\Desktop\HotelReservation\LalamoveJunior\obj\Debug\LalamoveJunior.csproj.CopyComplete
 C:\Users\Santos\Desktop\HotelReservation\LalamoveJunior\obj\Debug\LalamoveJunior.exe
 C:\Users\Santos\Desktop\HotelReservation\LalamoveJunior\obj\Debug\LalamoveJunior.pdb
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\bin\Debug\LoginDB.mdf
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\bin\Debug\LoginDB_log.ldf
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\bin\Debug\LalamoveJunior.exe.config
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\bin\Debug\LalamoveJunior.exe
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\bin\Debug\LalamoveJunior.pdb
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\bin\Debug\ReaLTaiizor.dll
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\bin\Debug\ReaLTaiizor.xml
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.csproj.AssemblyReference.cache
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.AccountInfoForm.resources
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.ForgotPassword.resources
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.MainMenu.resources
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.Register.resources
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.ReportForm.resources
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.Start.resources
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.Properties.Resources.resources
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.csproj.GenerateResource.cache
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.csproj.CoreCompileInputs.cache
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.csproj.CopyComplete
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.exe
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.pdb
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.ChangeAccountForms.ChangeName.resources
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.ChangeAccountForms.ChangePassword.resources
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.ChangeAccountForms.ChangePhone.resources

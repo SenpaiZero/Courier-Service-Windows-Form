@@ -1,5 +1,5 @@
 ﻿
-namespace HotelReservation
+namespace LalamoveJunior
 {
     partial class Register
     {
@@ -30,6 +30,7 @@ namespace HotelReservation
         private void InitializeComponent()
         {
             this.nightForm1 = new ReaLTaiizor.Forms.NightForm();
+            this.nightLinkLabel1 = new ReaLTaiizor.Controls.NightLinkLabel();
             this.PhoneNumber = new ReaLTaiizor.Controls.MaterialTextBox();
             this.Name = new ReaLTaiizor.Controls.MaterialTextBox();
             this.metroControlBox1 = new ReaLTaiizor.Controls.MetroControlBox();
@@ -38,7 +39,6 @@ namespace HotelReservation
             this.Username = new ReaLTaiizor.Controls.MaterialTextBox();
             this.RegisterBtn = new ReaLTaiizor.Controls.NightButton();
             this.bigLabel1 = new ReaLTaiizor.Controls.BigLabel();
-            this.nightLinkLabel1 = new ReaLTaiizor.Controls.NightLinkLabel();
             this.nightForm1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,6 +67,24 @@ namespace HotelReservation
             this.nightForm1.TextAlignment = ReaLTaiizor.Forms.NightForm.Alignment.Left;
             this.nightForm1.TitleBarTextColor = System.Drawing.Color.Gainsboro;
             // 
+            // nightLinkLabel1
+            // 
+            this.nightLinkLabel1.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(89)))), ((int)(((byte)(84)))));
+            this.nightLinkLabel1.AutoSize = true;
+            this.nightLinkLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.nightLinkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nightLinkLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.nightLinkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(93)))), ((int)(((byte)(89)))));
+            this.nightLinkLabel1.Location = new System.Drawing.Point(156, 472);
+            this.nightLinkLabel1.Name = "nightLinkLabel1";
+            this.nightLinkLabel1.Size = new System.Drawing.Size(57, 15);
+            this.nightLinkLabel1.TabIndex = 7;
+            this.nightLinkLabel1.TabStop = true;
+            this.nightLinkLabel1.Text = "GO BACK";
+            this.nightLinkLabel1.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(89)))), ((int)(((byte)(84)))));
+            this.nightLinkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.nightLinkLabel1_LinkClicked);
+            // 
             // PhoneNumber
             // 
             this.PhoneNumber.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -79,7 +97,7 @@ namespace HotelReservation
             this.PhoneNumber.Multiline = false;
             this.PhoneNumber.Name = "PhoneNumber";
             this.PhoneNumber.Size = new System.Drawing.Size(301, 50);
-            this.PhoneNumber.TabIndex = 8;
+            this.PhoneNumber.TabIndex = 3;
             this.PhoneNumber.Tag = "username";
             this.PhoneNumber.Text = "";
             this.PhoneNumber.TextChanged += new System.EventHandler(this.materialTextBox2_TextChanged);
@@ -96,7 +114,7 @@ namespace HotelReservation
             this.Name.Multiline = false;
             this.Name.Name = "Name";
             this.Name.Size = new System.Drawing.Size(301, 50);
-            this.Name.TabIndex = 7;
+            this.Name.TabIndex = 2;
             this.Name.Tag = "username";
             this.Name.Text = "";
             this.Name.TextChanged += new System.EventHandler(this.materialTextBox1_TextChanged);
@@ -125,6 +143,7 @@ namespace HotelReservation
             this.metroControlBox1.Style = ReaLTaiizor.Enum.Metro.Style.Light;
             this.metroControlBox1.StyleManager = null;
             this.metroControlBox1.TabIndex = 6;
+            this.metroControlBox1.TabStop = false;
             this.metroControlBox1.Text = "metroControlBox1";
             this.metroControlBox1.ThemeAuthor = "Taiizor";
             this.metroControlBox1.ThemeName = "MetroLight";
@@ -142,7 +161,7 @@ namespace HotelReservation
             this.Password2.Name = "Password2";
             this.Password2.Password = true;
             this.Password2.Size = new System.Drawing.Size(301, 50);
-            this.Password2.TabIndex = 4;
+            this.Password2.TabIndex = 5;
             this.Password2.Tag = "Password2";
             this.Password2.Text = "";
             this.Password2.TextChanged += new System.EventHandler(this.Password2_TextChanged);
@@ -160,7 +179,7 @@ namespace HotelReservation
             this.Password.Name = "Password";
             this.Password.Password = true;
             this.Password.Size = new System.Drawing.Size(301, 50);
-            this.Password.TabIndex = 3;
+            this.Password.TabIndex = 4;
             this.Password.Tag = "Password";
             this.Password.Text = "";
             this.Password.TextChanged += new System.EventHandler(this.Password_TextChanged);
@@ -177,7 +196,7 @@ namespace HotelReservation
             this.Username.Multiline = false;
             this.Username.Name = "Username";
             this.Username.Size = new System.Drawing.Size(301, 50);
-            this.Username.TabIndex = 2;
+            this.Username.TabIndex = 1;
             this.Username.Tag = "username";
             this.Username.Text = "";
             // 
@@ -201,7 +220,7 @@ namespace HotelReservation
             this.RegisterBtn.Radius = 20;
             this.RegisterBtn.Size = new System.Drawing.Size(144, 47);
             this.RegisterBtn.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-            this.RegisterBtn.TabIndex = 1;
+            this.RegisterBtn.TabIndex = 6;
             this.RegisterBtn.Text = "REGISTER";
             this.RegisterBtn.Click += new System.EventHandler(this.RegisterBtn_Click);
             // 
@@ -217,24 +236,6 @@ namespace HotelReservation
             this.bigLabel1.TabIndex = 0;
             this.bigLabel1.Text = "REGISTER";
             // 
-            // nightLinkLabel1
-            // 
-            this.nightLinkLabel1.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(89)))), ((int)(((byte)(84)))));
-            this.nightLinkLabel1.AutoSize = true;
-            this.nightLinkLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.nightLinkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.nightLinkLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.nightLinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.nightLinkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(93)))), ((int)(((byte)(89)))));
-            this.nightLinkLabel1.Location = new System.Drawing.Point(156, 472);
-            this.nightLinkLabel1.Name = "nightLinkLabel1";
-            this.nightLinkLabel1.Size = new System.Drawing.Size(57, 15);
-            this.nightLinkLabel1.TabIndex = 9;
-            this.nightLinkLabel1.TabStop = true;
-            this.nightLinkLabel1.Text = "GO BACK";
-            this.nightLinkLabel1.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(89)))), ((int)(((byte)(84)))));
-            this.nightLinkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.nightLinkLabel1_LinkClicked);
-            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -243,7 +244,7 @@ namespace HotelReservation
             this.Controls.Add(this.nightForm1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximumSize = new System.Drawing.Size(1440, 860);
-            //this.Name = "Register";
+            this.Name.Name = "Register";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;

@@ -2,7 +2,7 @@
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
-namespace HotelReservation
+namespace LalamoveJunior
 {
     public partial class ForgotPassword : Form
     {

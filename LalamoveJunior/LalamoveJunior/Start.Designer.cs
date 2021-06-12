@@ -1,5 +1,5 @@
 ﻿
-namespace HotelReservation
+namespace LalamoveJunior
 {
     partial class Start
     {

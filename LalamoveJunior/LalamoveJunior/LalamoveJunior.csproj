@@ -86,6 +86,24 @@
     <Compile Include="AccountInfoForm.Designer.cs">
       <DependentUpon>AccountInfoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChangeAccountForms\ChangeName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeAccountForms\ChangeName.Designer.cs">
+      <DependentUpon>ChangeName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeAccountForms\ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeAccountForms\ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeAccountForms\ChangePhone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeAccountForms\ChangePhone.Designer.cs">
+      <DependentUpon>ChangePhone.cs</DependentUpon>
+    </Compile>
     <Compile Include="ForgotPassword.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +122,12 @@
     <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportForm.Designer.cs">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Start.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +139,15 @@
     <EmbeddedResource Include="AccountInfoForm.resx">
       <DependentUpon>AccountInfoForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChangeAccountForms\ChangeName.resx">
+      <DependentUpon>ChangeName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeAccountForms\ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeAccountForms\ChangePhone.resx">
+      <DependentUpon>ChangePhone.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ForgotPassword.resx">
       <DependentUpon>ForgotPassword.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportForm.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Start.resx">
       <DependentUpon>Start.cs</DependentUpon>
@@ -171,6 +207,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Inquiring\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
