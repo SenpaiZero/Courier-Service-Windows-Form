@@ -1,0 +1,48 @@
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\bin\Debug\HotelReservation.exe.config
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\bin\Debug\HotelReservation.exe
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\bin\Debug\HotelReservation.pdb
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\bin\Debug\ReaLTaiizor.dll
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\bin\Debug\ReaLTaiizor.xml
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\obj\Debug\HotelReservation.csproj.AssemblyReference.cache
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\obj\Debug\HotelReservation.Start.resources
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\obj\Debug\HotelReservation.Properties.Resources.resources
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\obj\Debug\HotelReservation.csproj.GenerateResource.cache
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\obj\Debug\HotelReservation.csproj.CoreCompileInputs.cache
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\obj\Debug\HotelReservation.csproj.CopyComplete
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\obj\Debug\HotelReservation.exe
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\obj\Debug\HotelReservation.pdb
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\obj\Debug\HotelReservation.Register.resources
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\bin\Debug\Hotel.mdf
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\bin\Debug\Hotel_log.ldf
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\bin\Debug\StaffLoginDB.mdf
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\bin\Debug\StaffLoginDB_log.ldf
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\bin\Debug\HotelReservation.exe.config
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\bin\Debug\HotelReservation.exe
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\bin\Debug\HotelReservation.pdb
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\bin\Debug\ReaLTaiizor.dll
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\bin\Debug\ReaLTaiizor.xml
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\obj\Debug\HotelReservation.csproj.AssemblyReference.cache
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\obj\Debug\HotelReservation.ClientForm.resources
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\obj\Debug\HotelReservation.Register.resources
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\obj\Debug\HotelReservation.ReservationForm.resources
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\obj\Debug\HotelReservation.RoomFOrm.resources
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\obj\Debug\HotelReservation.Start.resources
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\obj\Debug\HotelReservation.MainMenu.resources
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\obj\Debug\HotelReservation.Properties.Resources.resources
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\obj\Debug\HotelReservation.csproj.GenerateResource.cache
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\obj\Debug\HotelReservation.csproj.CoreCompileInputs.cache
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\obj\Debug\HotelReservation.csproj.CopyComplete
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\obj\Debug\HotelReservation.exe
+C:\Users\Santos\Desktop\Hotel Reservation\HotelReservation\HotelReservation\obj\Debug\HotelReservation.pdb
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\bin\Debug\LoginDB.mdf
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\bin\Debug\LoginDB_log.ldf
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\obj\Debug\HotelReservation.ForgotPassword.resources
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\obj\Debug\HotelReservation.AccountInfoForm.resources
+C:\Users\Santos\Desktop\HotelReservation\HotelReservation\obj\Debug\HotelReservation.MainMenu.resources
