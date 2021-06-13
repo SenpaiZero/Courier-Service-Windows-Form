@@ -52,6 +52,12 @@ namespace LalamoveJunior
                             cmd.Parameters.AddWithValue("PhoneNumber", PhoneNumber.Text);
                             cmd.ExecuteNonQuery();
                             MessageBox.Show("Your Account is created . Please login now.", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                            Start start = new Start();
+                            this.Hide();
+                            start.ShowDialog();
+                            cn.Close();
+                            this.Close();
                         }
                     }
                 }

@@ -66,5 +66,13 @@ namespace LalamoveJunior
         {
 
         }
+
+        private void About_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            about aboutt = new about();
+            aboutt.ShowDialog();
+            this.Close();
+        }
     }
 }

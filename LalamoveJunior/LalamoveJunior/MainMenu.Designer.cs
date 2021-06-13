@@ -213,6 +213,7 @@ namespace LalamoveJunior
             this.About.TabIndex = 1;
             this.About.Text = "ABOUT";
             this.About.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.About.Click += new System.EventHandler(this.About_Click);
             // 
             // lostPanel1
             // 

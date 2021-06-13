@@ -19,7 +19,8 @@ namespace LalamoveJunior
 
         private void about_Load(object sender, EventArgs e)
         {
-
+            metroRichTextBox3.BackColor = ColorTranslator.FromHtml("#283033");
+            metroRichTextBox3.ForeColor = Color.White;
             this.MaximumSize = this.Size;
             SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
             DoubleBuffered = true;
@@ -45,6 +46,11 @@ namespace LalamoveJunior
             MainMenu menu = new MainMenu();
             menu.ShowDialog();
             this.Close();
+        }
+
+        private void metroRichTextBox3_TextChanged(object sender)
+        {
+
         }
     }
 }

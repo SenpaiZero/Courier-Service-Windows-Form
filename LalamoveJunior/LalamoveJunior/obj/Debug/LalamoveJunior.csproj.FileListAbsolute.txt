@@ -83,3 +83,4 @@ C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\
 C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.Inquiring.Payment.resources
 C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.Inquiring.Select_Vehicle.resources
 C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.Inquiring.SelectLocation.resources
+C:\Users\Santos\Desktop\Courier Service\LalamoveJunior\LalamoveJunior\obj\Debug\LalamoveJunior.about.resources
