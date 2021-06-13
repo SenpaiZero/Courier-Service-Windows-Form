@@ -63,6 +63,7 @@ namespace LalamoveJunior
             this.nightForm1.Text = " ";
             this.nightForm1.TextAlignment = ReaLTaiizor.Forms.NightForm.Alignment.Left;
             this.nightForm1.TitleBarTextColor = System.Drawing.Color.Gainsboro;
+            this.nightForm1.Click += new System.EventHandler(this.nightForm1_Click);
             // 
             // metroControlBox1
             // 
@@ -162,6 +163,7 @@ namespace LalamoveJunior
             this.PhoneNumber.TabIndex = 5;
             this.PhoneNumber.Tag = "PhoneNumber";
             this.PhoneNumber.Text = "";
+            this.PhoneNumber.TextChanged += new System.EventHandler(this.PhoneNumber_TextChanged);
             // 
             // Name
             // 

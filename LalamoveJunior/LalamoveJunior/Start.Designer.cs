@@ -30,13 +30,13 @@ namespace LalamoveJunior
         private void InitializeComponent()
         {
             this.nightForm1 = new ReaLTaiizor.Forms.NightForm();
+            this.nightLinkLabel1 = new ReaLTaiizor.Controls.NightLinkLabel();
+            this.RegBtn = new ReaLTaiizor.Controls.NightLinkLabel();
             this.metroControlBox1 = new ReaLTaiizor.Controls.MetroControlBox();
             this.bigLabel1 = new ReaLTaiizor.Controls.BigLabel();
             this.LoginBtn = new ReaLTaiizor.Controls.NightButton();
             this.Password = new ReaLTaiizor.Controls.MaterialTextBox();
             this.Username = new ReaLTaiizor.Controls.MaterialTextBox();
-            this.RegBtn = new ReaLTaiizor.Controls.NightLinkLabel();
-            this.nightLinkLabel1 = new ReaLTaiizor.Controls.NightLinkLabel();
             this.nightForm1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,6 +62,43 @@ namespace LalamoveJunior
             this.nightForm1.TabIndex = 0;
             this.nightForm1.TextAlignment = ReaLTaiizor.Forms.NightForm.Alignment.Left;
             this.nightForm1.TitleBarTextColor = System.Drawing.Color.Gainsboro;
+            this.nightForm1.Click += new System.EventHandler(this.nightForm1_Click);
+            // 
+            // nightLinkLabel1
+            // 
+            this.nightLinkLabel1.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(89)))), ((int)(((byte)(84)))));
+            this.nightLinkLabel1.AutoSize = true;
+            this.nightLinkLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.nightLinkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nightLinkLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.nightLinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.nightLinkLabel1.LinkColor = System.Drawing.Color.Gray;
+            this.nightLinkLabel1.Location = new System.Drawing.Point(3, 337);
+            this.nightLinkLabel1.Name = "nightLinkLabel1";
+            this.nightLinkLabel1.Size = new System.Drawing.Size(95, 15);
+            this.nightLinkLabel1.TabIndex = 7;
+            this.nightLinkLabel1.TabStop = true;
+            this.nightLinkLabel1.Text = "Forgot Password";
+            this.nightLinkLabel1.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(89)))), ((int)(((byte)(84)))));
+            this.nightLinkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.nightLinkLabel1_LinkClicked);
+            // 
+            // RegBtn
+            // 
+            this.RegBtn.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(89)))), ((int)(((byte)(84)))));
+            this.RegBtn.AutoSize = true;
+            this.RegBtn.BackColor = System.Drawing.Color.Transparent;
+            this.RegBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RegBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.RegBtn.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.RegBtn.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(93)))), ((int)(((byte)(89)))));
+            this.RegBtn.Location = new System.Drawing.Point(118, 307);
+            this.RegBtn.Name = "RegBtn";
+            this.RegBtn.Size = new System.Drawing.Size(135, 15);
+            this.RegBtn.TabIndex = 6;
+            this.RegBtn.TabStop = true;
+            this.RegBtn.Text = "I don\'t Have an Account";
+            this.RegBtn.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(89)))), ((int)(((byte)(84)))));
+            this.RegBtn.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.RegBtn_LinkClicked);
             // 
             // metroControlBox1
             // 
@@ -162,42 +199,6 @@ namespace LalamoveJunior
             this.Username.Tag = "username";
             this.Username.Text = "";
             this.Username.TextChanged += new System.EventHandler(this.materialTextBox1_TextChanged);
-            // 
-            // RegBtn
-            // 
-            this.RegBtn.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(89)))), ((int)(((byte)(84)))));
-            this.RegBtn.AutoSize = true;
-            this.RegBtn.BackColor = System.Drawing.Color.Transparent;
-            this.RegBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RegBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.RegBtn.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.RegBtn.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(93)))), ((int)(((byte)(89)))));
-            this.RegBtn.Location = new System.Drawing.Point(118, 307);
-            this.RegBtn.Name = "RegBtn";
-            this.RegBtn.Size = new System.Drawing.Size(135, 15);
-            this.RegBtn.TabIndex = 6;
-            this.RegBtn.TabStop = true;
-            this.RegBtn.Text = "I don\'t Have an Account";
-            this.RegBtn.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(89)))), ((int)(((byte)(84)))));
-            this.RegBtn.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.RegBtn_LinkClicked);
-            // 
-            // nightLinkLabel1
-            // 
-            this.nightLinkLabel1.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(89)))), ((int)(((byte)(84)))));
-            this.nightLinkLabel1.AutoSize = true;
-            this.nightLinkLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.nightLinkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.nightLinkLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.nightLinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.nightLinkLabel1.LinkColor = System.Drawing.Color.Gray;
-            this.nightLinkLabel1.Location = new System.Drawing.Point(3, 337);
-            this.nightLinkLabel1.Name = "nightLinkLabel1";
-            this.nightLinkLabel1.Size = new System.Drawing.Size(95, 15);
-            this.nightLinkLabel1.TabIndex = 7;
-            this.nightLinkLabel1.TabStop = true;
-            this.nightLinkLabel1.Text = "Forgot Password";
-            this.nightLinkLabel1.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(89)))), ((int)(((byte)(84)))));
-            this.nightLinkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.nightLinkLabel1_LinkClicked);
             // 
             // Start
             // 

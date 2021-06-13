@@ -98,5 +98,20 @@ namespace LalamoveJunior
             cn.Close();
             this.Close();
         }
+
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleparam = base.CreateParams;
+                handleparam.ExStyle |= 0x02000000;
+                return handleparam;
+            }
+        }
+
+        private void nightForm1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

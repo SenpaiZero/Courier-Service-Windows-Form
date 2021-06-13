@@ -30,6 +30,7 @@ namespace LalamoveJunior
         private void InitializeComponent()
         {
             this.nightForm1 = new ReaLTaiizor.Forms.NightForm();
+            this.Inquire = new ReaLTaiizor.Controls.Button();
             this.metroControlBox1 = new ReaLTaiizor.Controls.MetroControlBox();
             this.bigLabel1 = new ReaLTaiizor.Controls.BigLabel();
             this.headerLabel1 = new ReaLTaiizor.Controls.HeaderLabel();
@@ -37,7 +38,6 @@ namespace LalamoveJunior
             this.Logout = new ReaLTaiizor.Controls.Button();
             this.Report = new ReaLTaiizor.Controls.Button();
             this.About = new ReaLTaiizor.Controls.Button();
-            this.Inquire = new ReaLTaiizor.Controls.Button();
             this.lostPanel1 = new ReaLTaiizor.Controls.LostPanel();
             this.lostPanel2 = new ReaLTaiizor.Controls.LostPanel();
             this.lostPanel3 = new ReaLTaiizor.Controls.LostPanel();
@@ -71,6 +71,25 @@ namespace LalamoveJunior
             this.nightForm1.Text = " ";
             this.nightForm1.TextAlignment = ReaLTaiizor.Forms.NightForm.Alignment.Left;
             this.nightForm1.TitleBarTextColor = System.Drawing.Color.Gainsboro;
+            this.nightForm1.Click += new System.EventHandler(this.nightForm1_Click);
+            // 
+            // Inquire
+            // 
+            this.Inquire.BackColor = System.Drawing.Color.Transparent;
+            this.Inquire.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Inquire.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.Inquire.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Inquire.Image = null;
+            this.Inquire.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Inquire.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.Inquire.Location = new System.Drawing.Point(263, 185);
+            this.Inquire.Name = "Inquire";
+            this.Inquire.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.Inquire.Size = new System.Drawing.Size(169, 121);
+            this.Inquire.TabIndex = 0;
+            this.Inquire.Text = "INQUIRE";
+            this.Inquire.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.Inquire.Click += new System.EventHandler(this.Inquire_Click);
             // 
             // metroControlBox1
             // 
@@ -118,11 +137,11 @@ namespace LalamoveJunior
             this.headerLabel1.BackColor = System.Drawing.Color.Transparent;
             this.headerLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.headerLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.headerLabel1.Location = new System.Drawing.Point(80, 51);
+            this.headerLabel1.Location = new System.Drawing.Point(168, 51);
             this.headerLabel1.Name = "headerLabel1";
-            this.headerLabel1.Size = new System.Drawing.Size(570, 73);
+            this.headerLabel1.Size = new System.Drawing.Size(387, 73);
             this.headerLabel1.TabIndex = 6;
-            this.headerLabel1.Text = "COMPANY NAME";
+            this.headerLabel1.Text = "LALAMOVE";
             // 
             // account
             // 
@@ -194,23 +213,6 @@ namespace LalamoveJunior
             this.About.TabIndex = 1;
             this.About.Text = "ABOUT";
             this.About.TextAlignment = System.Drawing.StringAlignment.Center;
-            // 
-            // Inquire
-            // 
-            this.Inquire.BackColor = System.Drawing.Color.Transparent;
-            this.Inquire.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Inquire.EnteredColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.Inquire.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.Inquire.Image = null;
-            this.Inquire.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Inquire.InactiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.Inquire.Location = new System.Drawing.Point(263, 185);
-            this.Inquire.Name = "Inquire";
-            this.Inquire.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.Inquire.Size = new System.Drawing.Size(169, 121);
-            this.Inquire.TabIndex = 0;
-            this.Inquire.Text = "INQUIRE";
-            this.Inquire.TextAlignment = System.Drawing.StringAlignment.Center;
             // 
             // lostPanel1
             // 

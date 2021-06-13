@@ -80,6 +80,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about.Designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
     <Compile Include="AccountInfoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,30 @@
     <Compile Include="ForgotPassword.Designer.cs">
       <DependentUpon>ForgotPassword.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inquiring\Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inquiring\Details.Designer.cs">
+      <DependentUpon>Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiring\Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inquiring\Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiring\Select Vehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inquiring\Select Vehicle.Designer.cs">
+      <DependentUpon>Select Vehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiring\SelectLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inquiring\SelectLocation.Designer.cs">
+      <DependentUpon>SelectLocation.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +166,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="about.resx">
+      <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AccountInfoForm.resx">
       <DependentUpon>AccountInfoForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +183,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ForgotPassword.resx">
       <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inquiring\Details.resx">
+      <DependentUpon>Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inquiring\Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inquiring\Select Vehicle.resx">
+      <DependentUpon>Select Vehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inquiring\SelectLocation.resx">
+      <DependentUpon>SelectLocation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
@@ -188,6 +233,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\large truck.png" />
+    <Content Include="Images\mid truck.png" />
+    <Content Include="Images\motor.png" />
+    <Content Include="Images\pickup truck.png" />
+    <Content Include="Images\small truck.png" />
     <Content Include="LoginDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -208,8 +258,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Inquiring\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

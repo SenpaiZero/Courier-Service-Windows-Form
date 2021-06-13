@@ -17,7 +17,6 @@ namespace LalamoveJunior
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
             this.MaximumSize = this.Size;
             SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
             DoubleBuffered = true;
@@ -86,6 +85,21 @@ namespace LalamoveJunior
             ForgotPassword forgot = new ForgotPassword();
             forgot.ShowDialog();
             this.Close();
+        }
+
+        private void nightForm1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleparam = base.CreateParams;
+                handleparam.ExStyle |= 0x02000000;
+                return handleparam;
+            }
         }
     }
 }

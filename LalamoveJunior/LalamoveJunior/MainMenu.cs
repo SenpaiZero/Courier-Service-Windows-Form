@@ -13,6 +13,9 @@ namespace LalamoveJunior
         private void MainMenu_Load(object sender, EventArgs e)
         {
 
+            this.MaximumSize = this.Size;
+            SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
+            DoubleBuffered = true;
         }
 
         private void Logout_Click(object sender, EventArgs e)
@@ -37,6 +40,31 @@ namespace LalamoveJunior
             ReportForm report = new ReportForm();
             report.ShowDialog();
             this.Close();
+        }
+
+        private void Inquire_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Inquiring.SelectLocation loc = new Inquiring.SelectLocation();
+            loc.ShowDialog();
+            this.Close();
+
+        }
+
+
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleparam = base.CreateParams;
+                handleparam.ExStyle |= 0x02000000;
+                return handleparam;
+            }
+        }
+
+        private void nightForm1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -62,6 +62,7 @@ namespace LalamoveJunior.ChangeAccountForms
             this.nightForm1.TabIndex = 1;
             this.nightForm1.TextAlignment = ReaLTaiizor.Forms.NightForm.Alignment.Left;
             this.nightForm1.TitleBarTextColor = System.Drawing.Color.Gainsboro;
+            this.nightForm1.Click += new System.EventHandler(this.nightForm1_Click);
             // 
             // metroControlBox1
             // 

@@ -71,5 +71,28 @@ namespace LalamoveJunior
             start.ShowDialog();
             this.Close();
         }
+
+        private void nightForm1_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleparam = base.CreateParams;
+                handleparam.ExStyle |= 0x02000000;
+                return handleparam;
+            }
+        }
+
+        private void PhoneNumber_TextChanged(object sender, EventArgs e)
+        {
+            if (System.Text.RegularExpressions.Regex.IsMatch(PhoneNumber.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Please enter only numbers.");
+                PhoneNumber.Text = PhoneNumber.Text.Remove(PhoneNumber.Text.Length - 1);
+            }
+        }
     }
 }

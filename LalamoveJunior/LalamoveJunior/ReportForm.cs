@@ -36,5 +36,19 @@ namespace LalamoveJunior
                 MessageBox.Show("Email has been sent.", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void nightForm1_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleparam = base.CreateParams;
+                handleparam.ExStyle |= 0x02000000;
+                return handleparam;
+            }
+        }
     }
 }

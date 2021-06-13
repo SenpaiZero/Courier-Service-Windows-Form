@@ -72,5 +72,19 @@ namespace LalamoveJunior.ChangeAccountForms
             SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
             DoubleBuffered = true;
         }
+
+        private void nightForm1_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleparam = base.CreateParams;
+                handleparam.ExStyle |= 0x02000000;
+                return handleparam;
+            }
+        }
     }
 }
